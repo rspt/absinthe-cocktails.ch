@@ -6,9 +6,9 @@
 		"_sass/main.scss"
 	],
 	"sourcesContent": [
-		"@import \"main\";\n",
-		"$backgroundColor: #ffffff;\n$bodyColor: #000000;\n$bodyFont: -apple-system,BlinkMacSystemFont,\"Segoe UI\",Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\";\n\nbody {\n  background: $backgroundColor;\n  color: $bodyColor;\n  font-family: $bodyFont;\n}\n"
+		"@import \"main\";\n\n.cocktail-cover__img {\n  position: relative;\n  width: 100%;\n  object-fit: cover;\n  max-height: 400px;\n}\n\n.cocktail-cover__title {\n  text-align: center;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  color: white;\n}\n",
+		".logo {\n  font-family: 'Tangerine', cursive;\n}\n"
 	],
 	"names": [],
-	"mappings": "ACIA,AAAA,IAAI,CAAC,EACH,UAAU,EALM,OAAO,EAMvB,KAAK,EALK,OAAO,EAMjB,WAAW,EALF,aAAa,EAAC,kBAAkB,EAAC,UAAU,EAAC,SAAS,EAAC,KAAK,EAAC,UAAU,EAAC,mBAAmB,EAAC,gBAAgB,EAAC,iBAAiB,GAMvI"
+	"mappings": "ACAA,AAAA,KAAK,CAAC,EACJ,WAAW,EAAE,oBAAoB,GAClC;;ADAD,AAAA,oBAAoB,CAAC,EACnB,QAAQ,EAAE,QAAQ,EAClB,KAAK,EAAE,IAAI,EACX,UAAU,EAAE,KAAK,EACjB,UAAU,EAAE,KAAK,GAClB;;AAED,AAAA,sBAAsB,CAAC,EACrB,UAAU,EAAE,MAAM,EAClB,QAAQ,EAAE,QAAQ,EAClB,GAAG,EAAE,GAAG,EACR,IAAI,EAAE,GAAG,EACT,SAAS,EAAE,qBAAqB,EAChC,KAAK,EAAE,KAAK,GACb"
 }
